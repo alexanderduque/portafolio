@@ -277,7 +277,7 @@
     padding-top: 2em;
     font-size: 1.2em;
     font-weight: bold;
-    color: #1c246c;
+    color: #0351e2;
     font-family: "Dancing Script", cursive;
   }
   
@@ -297,21 +297,21 @@
   }
   
   .service-block {
-    border-right: 0.1em #9e0000 solid;
-    border-bottom: 0.1em #9e0000 solid;
+    border-right: 0.2em #0351e2 solid;
+    border-bottom: 0.2em #0351e2 solid;
   }
   
   .service-block1 {
-    border-bottom: 0.1em #9e0000 solid;
+    border-bottom: 0.2em #0351e2 solid;
   }
   
   .service-block2 {
-    border-left: 0.1em #9e0000 solid;
-    border-bottom: 0.1em #9e0000 solid;
+    border-left: 0.2em #0351e2 solid;
+    border-bottom: 0.2em #0351e2 solid;
   }
   
   .service-block3 {
-    border-right: 0.1em #9e0000 solid;
+    border-right: 0.2em #0351e2 solid;
     padding-top: 2em;
   }
   
@@ -320,7 +320,7 @@
   }
   
   .service-block5 {
-    border-left: 0.1em #9e0000 solid;
+    border-left: 0.2em #0351e2 solid;
     padding-top: 2em;
   }
   
@@ -336,17 +336,17 @@
     margin-top: 1em;
     font-size: 1.5em;
     font-weight: bold;
-    color: #1c246c;
+    color: #0351e2 ;
     font-family: "Dancing Script", cursive;
   }
   
   .button2 {
     width: auto;
-    border-radius: 1em;
-    padding: 10px;
+    border-radius: 2em;
+    padding: 13px;
     margin: 0 0 1em 0;
-    background: #ffffff;
-    border: 2px #1c246c solid;
+    background: #4872be;
+    color: white;
     cursor: pointer;
     font-size: 1.2em;
     float: right;
@@ -355,12 +355,13 @@
   }
 
   .button2:hover {
-    background-color: rgb(89, 89, 206); /* Cambia el color de fondo en hover */
-    color: #ffffff; /* Cambia el color del texto en hover */
+   background: #0351e2;
+   transition: 0.9s;
+   
 }
   .heroContent a:hover{
     
-    background: #00ff4e;
+    background: #00ff4cb4;
     color: rgb(255, 255, 255);
     font-weight: bold;
   }
@@ -403,7 +404,7 @@
     float: top;
     font-size: 1.5em;
     font-weight: bold;
-    color: #1c246c;
+    color: #0351e2;
     font-family: "Dancing Script", cursive;
   }
   
@@ -486,11 +487,12 @@
   
   #contactSubmit {
     width: 6em;
-    border-radius: 1em;
+    border-radius: 2em;
     margin-top: 0.4em;
     padding: 10px;
-    background: none;
-    border: 1px #a3a3a3 solid;
+    background: #0351e2;
+    color: white;
+    border: 3px ;
     cursor: pointer;
     font-size: 1.2em;
     float: right;
@@ -528,7 +530,7 @@
     margin: 1em 0 0 0;
     font-size: 1.5em;
     font-weight: bold;
-    color: #1c246c;
+    color: #0351e2;
     font-family: "Dancing Script", cursive;
     display: flex;
     flex-direction: column;
@@ -633,31 +635,31 @@
   
     .service-block {
       border-style: none;
-      border-bottom: 0.1em #9e0000 solid;
+      border-bottom: 0.1em #0351e2 solid;
     }
   
     .service-block1 {
       padding-top: 1em;
       border-style: none;
-      border-bottom: 0.1em #9e0000 solid;
+      border-bottom: 0.1em #0351e2 solid;
     }
   
     .service-block2 {
       padding-top: 1em;
       border-style: none;
-      border-bottom: 0.1em #9e0000 solid;
+      border-bottom: 0.1em #0351e2 solid;
     }
   
     .service-block3 {
       border-style: none;
       border-style: none;
-      border-bottom: 0.1em #9e0000 solid;
+      border-bottom: 0.1em #0351e2 solid;
     }
   
     .service-block4 {
       border-style: none;
       border-style: none;
-      border-bottom: 0.1em #9e0000 solid;
+      border-bottom: 0.1em #0351e2 solid;
     }
   
     .service-block5 {
