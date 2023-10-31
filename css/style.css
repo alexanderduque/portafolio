@@ -329,11 +329,12 @@
   /***********************************PORTFOLIO STYLES***********************************/
   .portfolio {
     padding: 1rem;
-    margin: 2rem 0 2rem 0;
+    margin: 3rem 0 5rem 0;
   }
   .portfolio h2 {
     text-align: center;
     margin-top: 1em;
+    margin-bottom: 5rem;
     font-size: 1.5em;
     font-weight: bold;
     color: #0351e2 ;
@@ -344,15 +345,14 @@
     width: auto;
     border-radius: 2em;
     padding: 13px;
-    margin: 0 0 1em 0;
     background: #4872be;
     color: white;
     cursor: pointer;
     font-size: 1.2em;
-    float: right;
-    border-color: none;
-   
+    border: none;
   }
+  
+  
 
   .button2:hover {
    background: #0351e2;
@@ -367,23 +367,27 @@
   }
   
   .img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 8rem;
-    width: auto;
+    text-align: center;
+  }
+  .img img {
+    max-width: 100%;
+    height: auto;
+}
+  .items {
+    display: grid; /* Usar display grid para crear una cuadrícula */
+    grid-template-columns: repeat(2, 1fr );
+    grid-template-rows: repeat(3, auto);
+    gap:20px
+   /* Espacio entre las celdas */
+
+  
   }
   
-  .items {
-    display: flex;
-    justify-content: space-around;
-    padding: 4rem;
-  }
   .items img {
     align-items: center;
-    width: 18em;
-    height: 14em;
-    margin-bottom: 2em;
+    width: 450px;
+    height: 270px;
+
   }
   .items h3 {
     text-align: center;
@@ -396,6 +400,7 @@
   /***COLORES***/
   /***********************************CONTACT STYLES***********************************/
   .contacto {
+    
     background: #f8f9fa;
     padding-top: 1rem;
   }
@@ -416,6 +421,7 @@
   }
   
   .contactBlock {
+    
     display: flex;
     justify-content: center;
   }
@@ -777,5 +783,16 @@
     }
   }
   
+@media(max-width: 450px){
+
+  .items img {
+    align-items: center;
+    width: 370px;
+    height: 200px;
+
+  }
+
+}
+
   /*# sourceMappingURL=style.css.map */
   
