@@ -373,6 +373,7 @@
   .img img {
     max-width: 100%;
     height: auto;
+    
 }
   .items {
     display: grid; /* Usar display grid para crear una cuadrícula */
